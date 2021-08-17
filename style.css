@@ -1,0 +1,20 @@
+.nav-top {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Links */
+.nav-top a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* On hover */
+.nav-top a:hover {
+    background-color: #777;
+    color: black;
+}
