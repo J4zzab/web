@@ -1,20 +1,68 @@
-.nav-top {
-    overflow: hidden;
-    background-color: #333;
+:root {
+    background-color: #777;
 }
 
-/* Links */
-.nav-top a {
+/* Nav box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+    border: 0px solid #555;
+
+    transition: border 1s;
+}
+
+/* Nav content */
+li {
     float: left;
+}
+  
+li a {
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: RobotoThin;
+    transition: text-shadow 100ms;
 }
 
-/* On hover */
-.nav-top a:hover {
-    background-color: #777;
-    color: black;
+/* Nav on hover */
+ul:hover {
+    border: 6px solid #555;
+}
+
+li a:hover {
+    background-color: #333;
+    text-shadow: 1px 1px;
+}
+
+/* Head content */
+.head {
+    background-color: #444;
+    padding: 50px 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 300%;
+    font-family: Roboto;
+}
+
+.body {
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 150%;
+    font-family: RobotoThin;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(Roboto-Thin.ttf);
 }
